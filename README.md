@@ -2,7 +2,7 @@
 
 # Notebooks
 
-* [Understand how your TensorFlow model is making predictions]((#understand-how-your-tensorflow-model-is-making-predictions))
+* [Understand how your TensorFlow model is making predictions](#understand-how-your-tensorflow-model-is-making-predictions)
 
 ## Understand how your TensorFlow model is making predictions
 
