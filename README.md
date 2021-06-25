@@ -2,9 +2,16 @@
 
 # Notebooks
 
+* [Medical Imaging notebooks using Vertex AI](#medical-imaging-notebooks-using-vertex-ai)
 * [Understand how your TensorFlow model is making predictions](#understand-how-your-tensorflow-model-is-making-predictions)
 * [20 Newsgroups data import script for Google Cloud AutoML Natural Language](#20-newsgroups-data-import-script-for-google-cloud-automl-natural-language)
 * [How to use the Google Cloud Natural Language API](#how-to-use-the-google-cloud-natural-language-api)
+
+## Medical Imaging notebooks using Vertex AI
+
+The [pipeline notebook](medical_imaging_pipeline.ipynb) should be run first. It will pre-process DICOM medical images in the dataset (which needs to be downloaded prior to running). Then, it will create an AutoML model, and deploy it to an endpoint. It demonstrates how to build a pipeline using standard and custom components.
+
+The [custom training notebook](medical_imaging_custom_training.ipynb) can be run afterward. It shows how to train a TensorFlow model using the same managed dataset.
 
 ## Understand how your TensorFlow model is making predictions
 
