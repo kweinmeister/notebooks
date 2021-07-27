@@ -2,10 +2,15 @@
 
 # Notebooks
 
+* [Causal Inference with Vertex AI AutoML Forecasting](#causal-inference-with-vertex-ai-automl-forecasting)
 * [Medical Imaging notebooks using Vertex AI](#medical-imaging-notebooks-using-vertex-ai)
 * [Understand how your TensorFlow model is making predictions](#understand-how-your-tensorflow-model-is-making-predictions)
 * [20 Newsgroups data import script for Google Cloud AutoML Natural Language](#20-newsgroups-data-import-script-for-google-cloud-automl-natural-language)
 * [How to use the Google Cloud Natural Language API](#how-to-use-the-google-cloud-natural-language-api)
+
+## Causal Inference with Vertex AI AutoML Forecasting
+
+This [notebook](causal_inference_with_vertex_ai_automl_forecasting.ipynb) introduces the concept of causal inference. It shows how to estimate the effect of an intervention using the [tfcausalimpact](https://github.com/WillianFuks/tfcausalimpact) library and with [Vertex AI AutoML Forecasting](https://cloud.google.com/vertex-ai/docs/training/automl-console#forecasting).
 
 ## Medical Imaging notebooks using Vertex AI
 
