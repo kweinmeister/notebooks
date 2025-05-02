@@ -3,12 +3,22 @@
 # Notebooks
 
 - [Notebooks](#notebooks)
+  - [Querying a GitHub Codebase with Vertex AI RAG Engine](#querying-a-github-codebase-with-vertex-ai-rag-engine)
   - [Product Data Enrichment with Vertex AI](#product-data-enrichment-with-vertex-ai)
   - [Causal Inference with Vertex AI AutoML Forecasting](#causal-inference-with-vertex-ai-automl-forecasting)
   - [Medical Imaging notebooks using Vertex AI](#medical-imaging-notebooks-using-vertex-ai)
   - [Understand how your TensorFlow model is making predictions](#understand-how-your-tensorflow-model-is-making-predictions)
   - [20 Newsgroups data import script for Google Cloud AutoML Natural Language](#20-newsgroups-data-import-script-for-google-cloud-automl-natural-language)
   - [How to use the Google Cloud Natural Language API](#how-to-use-the-google-cloud-natural-language-api)
+
+## Querying a GitHub Codebase with Vertex AI RAG Engine
+
+This [notebook](rag_codebase.ipynb) demonstrates how to use Vertex AI's
+Retrieval-Augmented Generation (RAG) capabilities to index the code files from a
+public GitHub repository and then ask questions about that codebase using a generative model.
+
+It uses [Vertex AI RAG Engine](https://cloud.google.com/vertex-ai/generative-ai/docs/rag-engine/rag-overview),
+a component of the Vertex AI Platform.
 
 ## Product Data Enrichment with Vertex AI
 
@@ -81,4 +91,4 @@ sentiment analysis, and syntax analysis using the [Google Cloud Natural Language
 API](https://cloud.google.com/natural-language/docs).
 
 
-[def]: 
+[def]:
