@@ -3,6 +3,7 @@
 # Notebooks
 
 - [Notebooks](#notebooks)
+  - [Google Drive ZIP to GitHub Repository Exporter](#google-drive-zip-to-github-repository-exporter)
   - [Identifying LLM "Tells": N-gram Analysis of Human vs. AI Text](#identifying-llm-tells-n-gram-analysis-of-human-vs-ai-text)
   - [Querying a GitHub Codebase with Vertex AI RAG Engine](#querying-a-github-codebase-with-vertex-ai-rag-engine)
   - [Product Data Enrichment with Vertex AI](#product-data-enrichment-with-vertex-ai)
@@ -11,6 +12,10 @@
   - [Understand how your TensorFlow model is making predictions](#understand-how-your-tensorflow-model-is-making-predictions)
   - [20 Newsgroups data import script for Google Cloud AutoML Natural Language](#20-newsgroups-data-import-script-for-google-cloud-automl-natural-language)
   - [How to use the Google Cloud Natural Language API](#how-to-use-the-google-cloud-natural-language-api)
+
+## Google Drive ZIP to GitHub Repository Exporter
+
+This [notebook](zip-to-repo.ipynb) provides a streamlined workflow to take a ZIP file from your Google Drive and push its contents into a new or existing GitHub repository.
 
 ## Identifying LLM "Tells": N-gram Analysis of Human vs. AI Text
 
