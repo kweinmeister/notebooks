@@ -3,6 +3,7 @@
 # Notebooks
 
 - [Notebooks](#notebooks)
+  - [Cloud Run LLM Serving with Cloud Storage FUSE](#cloud-run-llm-serving-with-cloud-storage-fuse)
   - [Google Drive ZIP to GitHub Repository Exporter](#google-drive-zip-to-github-repository-exporter)
   - [Identifying LLM "Tells": N-gram Analysis of Human vs. AI Text](#identifying-llm-tells-n-gram-analysis-of-human-vs-ai-text)
   - [Querying a GitHub Codebase with Vertex AI RAG Engine](#querying-a-github-codebase-with-vertex-ai-rag-engine)
@@ -12,6 +13,10 @@
   - [Understand how your TensorFlow model is making predictions](#understand-how-your-tensorflow-model-is-making-predictions)
   - [20 Newsgroups data import script for Google Cloud AutoML Natural Language](#20-newsgroups-data-import-script-for-google-cloud-automl-natural-language)
   - [How to use the Google Cloud Natural Language API](#how-to-use-the-google-cloud-natural-language-api)
+
+## Cloud Run LLM Serving with Cloud Storage FUSE
+
+This [notebook](cloud_run_llm_serving_with_cloud_storage_fuse.ipynb) provides an end-to-end solution for deploying large language models on [Google Cloud Run](https://cloud.google.com/run/docs/), leveraging [Cloud Storage](https://cloud.google.com/storage/docs/) and [Cloud Storage FUSE](https://cloud.google.com/storage/docs/cloud-storage-fuse/overview) for efficient model management.
 
 ## Google Drive ZIP to GitHub Repository Exporter
 
