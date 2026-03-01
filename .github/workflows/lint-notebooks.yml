@@ -2,11 +2,11 @@ name: Lint Notebooks
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths:
       - '**.ipynb'
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths:
       - '**.ipynb'
 
