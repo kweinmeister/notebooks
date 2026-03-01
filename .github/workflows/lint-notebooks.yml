@@ -1,0 +1,41 @@
+name: Lint Notebooks
+
+on:
+  push:
+    branches: [ "master" ]
+    paths:
+      - '**.ipynb'
+  pull_request:
+    branches: [ "master" ]
+    paths:
+      - '**.ipynb'
+
+jobs:
+  lint:
+    name: Run Linters
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Run Ruff
+        run: |
+          echo "Running Ruff to lint notebook code..."
+          uvx ruff check .
+
+      - name: Run Pynblint
+        run: |
+          echo "Running Pynblint to check notebook structure..."
+          # We force click<8.3.0 due to a known bug in pynblint 0.1.6
+          # We exclude non-executed-notebook as it's common to commit unexecuted templates
+          uvx --with "click<8.3.0" pynblint --exclude '["cell-too-long","imports-beyond-first-cell","long_multiline_python_comment","non-executed-cells","non-executed-notebook","notebook-too-long"]' .
