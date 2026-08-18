@@ -1,0 +1,12 @@
+# Pin the lint rule set explicitly.
+#
+# Without this file Ruff falls back to its built-in defaults, which change
+# between releases. The lint workflow runs `uvx ruff check .` with no version
+# pin, so a newer Ruff's default expansion turns CI red on unchanged
+# notebooks. Selecting rules explicitly keeps lint results reproducible
+# across Ruff upgrades.
+#
+# This mirrors the historical default set. Widen it deliberately if desired.
+
+[lint]
+select = ["E4", "E7", "E9", "F"]
